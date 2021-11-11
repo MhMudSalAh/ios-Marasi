@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Black.ttf">
+            <string>Cairo-Black</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Splash Controller-->
+        <scene sceneID="gMR-8k-hqb">
+            <objects>
+                <viewController storyboardIdentifier="SplashController" id="xc4-yY-fKi" customClass="SplashController" customModule="Marasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y7G-DG-7Xi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0dc-9s-ZRs">
+                                <rect key="frame" x="197" y="428" width="20" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQa-4T-SV7">
+                                        <rect key="frame" x="10" y="10" width="0.0" height="25"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Black" family="Cairo" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="lQa-4T-SV7" firstAttribute="leading" secondItem="0dc-9s-ZRs" secondAttribute="leading" constant="10" id="0b3-fl-j6j"/>
+                                    <constraint firstAttribute="bottom" secondItem="lQa-4T-SV7" secondAttribute="bottom" constant="15" id="5ZX-s3-wVW"/>
+                                    <constraint firstAttribute="height" constant="50" id="DCC-rn-P2I"/>
+                                    <constraint firstAttribute="trailing" secondItem="lQa-4T-SV7" secondAttribute="trailing" constant="10" id="Vvf-KW-Ei5"/>
+                                    <constraint firstItem="lQa-4T-SV7" firstAttribute="top" secondItem="0dc-9s-ZRs" secondAttribute="top" constant="10" id="yT7-Ke-vld"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ABr-92-UOn">
+                                <rect key="frame" x="205.5" y="471" width="3.5" height="10"/>
+                                <color key="backgroundColor" red="0.90588235289999997" green="0.36470588240000001" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="3.5" id="Hi5-1n-Faz"/>
+                                    <constraint firstAttribute="height" constant="10" id="b95-dJ-Out"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VHL-ou-j8g"/>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.16078431369999999" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0dc-9s-ZRs" firstAttribute="centerY" secondItem="VHL-ou-j8g" secondAttribute="centerY" id="0X1-ji-ZLA"/>
+                            <constraint firstItem="0dc-9s-ZRs" firstAttribute="centerX" secondItem="VHL-ou-j8g" secondAttribute="centerX" id="WJ2-Jk-aMS"/>
+                            <constraint firstItem="ABr-92-UOn" firstAttribute="bottom" secondItem="0dc-9s-ZRs" secondAttribute="bottom" constant="3" id="Xle-um-Dhr"/>
+                            <constraint firstItem="ABr-92-UOn" firstAttribute="centerX" secondItem="0dc-9s-ZRs" secondAttribute="centerX" id="b3C-gR-DZY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="lQa-4T-SV7" id="Q2p-Ow-z8k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p4q-1p-LsC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="140"/>
+        </scene>
+    </scenes>
+</document>

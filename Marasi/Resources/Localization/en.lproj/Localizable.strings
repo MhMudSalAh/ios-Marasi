@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Marasi
+
+  Created by MhMuD SalAh on 10/11/2021.
+  Copyright © 2021 MhMuD SalAh. All rights reserved.
+*/
+
+"app_name" = "Marasi";
+"home" = "Home";
+"categories" = "Categories";
+"search_for_products" = "Are you searching for a product?";
+"no_internet_connection" = "No internet connection!";
+"success" = "Success!";
+"error" = "Error!";
+"error_description" = "Something went wrong. Please check your connection and try again";
+"try_again" = "Try again";
+"add_to_cart" = "Add to cart";
+"discount" = "Discount";

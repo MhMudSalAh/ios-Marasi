@@ -1,0 +1,6 @@
+framework module Pods_Marasi_MarasiUITests {
+  umbrella header "Pods-Marasi-MarasiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
