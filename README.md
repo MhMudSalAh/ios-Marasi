@@ -14,7 +14,7 @@ VIPER is an application of Clean Architecture. The word VIPER is a backronym for
 - Caching
 - Extensions for UI
 - Storyboards for UI
-
+- IOS 13, IOS 14 && IOS 15
 ### App Structure
 - App
 
